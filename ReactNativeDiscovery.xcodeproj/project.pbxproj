@@ -188,10 +188,14 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = (
 					"$(SRCROOT)/**",
-					"$(SRCROOT)/../../ios/**",
+					"$(SRCROOT)/../react-native/React/**",
+					"$(SRCROOT)/../../ios/Pods/Headers/**",
 				);
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				LIBRARY_SEARCH_PATHS = "$(SRCROOT)/**";
+				LIBRARY_SEARCH_PATHS = (
+					"$(SRCROOT)/**",
+					"$(SRCROOT)/../react-native/React/**",
+				);
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -227,10 +231,14 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = (
 					"$(SRCROOT)/**",
-					"$(SRCROOT)/../../ios/**",
+					"$(SRCROOT)/../react-native/React/**",
+					"$(SRCROOT)/../../ios/Pods/Headers/**",
 				);
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				LIBRARY_SEARCH_PATHS = "$(SRCROOT)/**";
+				LIBRARY_SEARCH_PATHS = (
+					"$(SRCROOT)/**",
+					"$(SRCROOT)/../react-native/React/**",
+				);
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
