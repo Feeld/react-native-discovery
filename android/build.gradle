@@ -31,5 +31,5 @@ repositories {
 
 dependencies {
     compile 'com.facebook.react:react-native:0.+'
-    compile project(':discovery')
+    compile "com.joshblour.discovery:discovery:0.0.7"
 }
