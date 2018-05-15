@@ -28,7 +28,6 @@ public class ReactNativeDiscoveryPackage implements ReactPackage {
         modules.add(new ReactNativeDiscoveryModule(reactContext));
         return modules;    }
 
-    @Override
     public List<Class<? extends JavaScriptModule>> createJSModules() {
         return Collections.emptyList();
     }
